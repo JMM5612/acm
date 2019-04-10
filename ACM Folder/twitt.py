@@ -13,7 +13,7 @@ def main():
     api = tweepy.API(auth)
     ### DONT EDIT ABOVE ###
     '''SENDS TWEET'''
-    #api.update_status('new status')
+    api.update_status('Joe is so cool: Random Heroku Deply')
     
     '''PRINTS TIMELINE'''
     public_tweets = api.home_timeline()
